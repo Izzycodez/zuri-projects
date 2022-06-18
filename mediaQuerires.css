@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://drive.google.com/uc?export=view&id=1nEutzDG8bc8ZgtqHpEeaRSAa1tH2N3gu");
+    font-size: 16px;
+    font-family: "poppins", sans-serif;
+    color: rgb(54, 47, 47);
+
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding: 30px;
+    /* flex-wrap: wrap; rather than using media query i'd make this webpage responsive this way. */
+}
+
+#learn{
+    padding-left: 20px;
+    width: 50%;
+}
+
+#right{
+    width: 50%;
+}
+
+form{
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+ 
+}
+#top{
+    width: 100%;
+    height: 45px;
+    background-color: hsl(249, 62%, 29%);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    text-align: center;
+}
+#btn{
+    background:  hsl(154, 59%, 51%);
+    color: white;
+    text-align: center;
+}
+
+input{
+    color: black;
+    width: 100%;
+    margin: 5px auto;
+    padding: 20px;
+    height: 30px;
+    border-radius: 5px;
+    border:1px solid rgb(168, 163, 163);
+}
+
+#footer{
+    color: rgb(46, 42, 42);
+}
+
+@media (max-width:1440px) {
+    #container{
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 375px) {
+    body{
+        background-image: url("https://drive.google.com/uc?export=view&id=11B3vM87fvx9g9YfM5b_O_9FV45X9_DP4");
+    }
+    #learn{
+        width: 100%;
+    }
+    #right{
+        width: 100%;
+        padding: 20px;
+    }
+}

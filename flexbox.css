@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-color:hsl(0, 0%, 95%);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    /* margin: 10px auto; */
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: center;
+    align-content: center;
+    height: 400px;
+    border-radius: 15px;
+}
+
+button{
+    background-color: white;
+    width: 100px;
+    border: none;
+    height: 30px;
+    border-radius: 20px;
+}
+
+h2{
+    color: hsl(0, 0%, 95%);
+    font-family:"Big Shoulders Display", sans-serif;
+    font-weight: 700;
+}
+
+p{
+    margin: 20px 0 35px 0;
+    font-family:" Lexend Deca",sans-serif;
+    font-weight: 400;
+    color:  hsla(0, 0%, 100%, 0.75);
+    font-size:15px;
+}
+
+#seadans>button:hover{
+    background-color:  hsl(31, 77%, 52%);
+    border: 1px solid white;
+    color:white;
+    cursor: pointer;
+}
+
+#seadans >button{
+    color:  hsl(31, 77%, 52%);
+}
+#seadans{
+    background-color:  hsl(31, 77%, 52%);
+    padding: 40px;
+    width: 33.33%;
+    border-radius: 10px 0 0 10px;
+}
+
+#suvs>button:hover{
+    background-color:  hsl(184, 100%, 22%);
+    border: 1px solid white;
+    color:white;
+    cursor: pointer;
+}
+
+#suvs>button{
+    color:  hsl(184, 100%, 22%);
+}
+#suvs{
+    background-color:  hsl(184, 100%, 22%);
+    padding: 40px;
+    width: 33.33%;
+}
+
+#luxury>button{
+    color:hsl(179, 100%, 13%) ;
+}
+
+#luxury>button:hover{
+    background-color:  hsl(179, 100%, 13%) ;
+    border: 1px solid white;
+    color:white;
+    cursor: pointer;
+}
+#luxury{
+    width: 33.33%;
+    background-color:hsl(179, 100%, 13%) ;
+    padding: 40px;
+    border-radius: 0 10px 10px 0;
+}
